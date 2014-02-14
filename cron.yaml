@@ -1,0 +1,9 @@
+cron:
+ - description: Check for buffing
+   schedule: every 1 minutes from 19:40 to 19:29
+   url: /buff/
+   timezone: America/Los_Angeles
+ - description: Flush memcache
+   schedule: every day 19:35
+   url: /flush/
+   timezone: America/Los_Angeles
